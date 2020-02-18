@@ -9,13 +9,19 @@
     <meta name="author" content="Miranda Barriero">
     <meta name="description" content="Basic HTML example">
     <meta name="keywords" content="HTML, JS, CSS, Basic example">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap" rel="stylesheet">
+ <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobile.css">
+ <meta name="viewport" content="initial-scale=1">
+
+
   </head>
   <!-- This is the body of my website  -->
   <body>
       <!-- this is my header -->
       <header>
-        <nav>
-          <ul>
+        <nav class="navigation">
+          <ul class="horizontaLine">
             <li> <a href="https://www.apple.com/">Apple</a> </li>
             <li> <a href="https://rookcoffee.com">Rook Coffee</a> </li>
             <li> <a href="https://www.instagram.com">Instagram</a> </li>
@@ -23,8 +29,26 @@
         </nav>
       </header>
 
+      <aside class="sidebar">
+              <h3>SideBar</h3>
+              <ul>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+              </ul>
+              <ol>
+                <li>item 1</li>
+                <li>item 2</li>
+                <li>item 3</li>
+              </ol>
 
+      </aside>
+
+    <div class="container">
     <section>
+      <h1>Title</h1>
+    </section>
+
 
 
 <aside>
@@ -41,8 +65,7 @@
 </aside>
 
 <!-- We use articles it for articles, magazine, posts, etc. -->
-<article>
-  <h1>Title</h1>
+<article class="article">
   <h2>Subtitle</h2>
 
 
@@ -56,13 +79,15 @@
     <em> labore et dolore magna </em>
     <b> minim veniam </b>
   </p>
-  <img src="img/coffee.jpeg" alt="Coffee" width="350px">
+  <img src="img/coffee.jpeg" alt="Coffee" width="300">
 
 </article>
 
-    </section>
+
+        </div>
 
 <section>
+  <h2>Contact Information</h2>
   <address>
     <ul>
       <li>Name: Miranda Barriero</li>
@@ -71,6 +96,7 @@
     </ul>
   </address>
 </section>
+
 
 <table>
   <tr>
