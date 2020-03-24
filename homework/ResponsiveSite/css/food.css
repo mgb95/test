@@ -1,0 +1,176 @@
+body {
+  background-color: rgb(217, 93, 76);
+}
+
+.center
+{
+  text-align: center;
+  font-family: 'Righteous';
+  color: black;
+  font-size: 300%;
+}
+
+.njfood
+{
+  text-align: center;
+  font-family: 'Roboto Mono';
+  color: black;
+}
+
+.nyfood
+{
+  text-align: center;
+  font-family: 'Roboto Mono';
+  color: black;
+}
+
+.miafood
+{
+  text-align: center;
+  font-family: 'Roboto Mono';
+  color: black;
+}
+
+.intlfood
+{
+  text-align: center;
+  font-family: 'Roboto Mono';
+  color: white;
+}
+
+.listWBullets
+{
+  list-style-type: none;
+}
+
+.back {
+  display: table;
+  margin-top: 30 px;
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.verticalLine {
+  padding-top: 20px;
+}
+
+.verticalLine li {
+  display: inline;
+  margin: 40px;
+  padding: 20px 60px 20px 60px;
+  background-color: black;
+  width: 10%;
+}
+
+.verticalLine li a {
+  color: rgb(217, 93, 76);
+  text-decoration: none;
+  font-family: 'Oxanium';
+}
+
+.verticalLine li a:hover {
+  color: white;
+}
+
+.favs {
+  text-align: center;
+  font-family: "Oxanium";
+  font-size: 150%;
+}
+
+.ffootone {
+  font-family: 'Oxanium';
+  color: white;
+  text-align: center;
+}
+
+
+.pubGrid {
+    width: 80%;
+    height: 40vh;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-rows: 20% 20%;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+}
+
+.pubGrid div:first-child
+{
+background-color: black;
+}
+.pubGrid div:nth-child(2)
+{
+  background-color: black;
+}
+.pubGrid div:nth-child(3)
+{
+  background-color: black;
+}
+
+.kyuGrid {
+    width: 80%;
+    height: 40vh;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-rows: 20% 20%;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+}
+
+.kyuGrid div:first-child
+{
+background-color: black;
+}
+
+.kyuGrid div:nth-child(2)
+{
+  background-color: black;
+}
+
+.kyuGrid div:nth-child(3)
+{
+  background-color: black;
+}
+
+.basicGrid
+{
+    width: 80%;
+    height: 70vh;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: auto;
+    display: grid;
+    grid-template-rows: 20% 20%;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-row-gap: 20px;
+    grid-column-gap: 10px;
+    font-size: 150%
+  }
+
+  .basicGrid div:first-child
+  {
+  font-family: 'Oxanium';
+  background-color: rgb(217, 93, 76);
+  border: 2px solid black;
+  }
+
+  .basicGrid div:nth-child(2)
+  {
+    font-family: 'Oxanium';
+    background-color: rgb(217, 93, 76);
+    border: 2px solid black;'
+  }
+
+  .basicGrid div:nth-child(3)
+  {
+    font-family: 'Oxanium';
+    background-color: rgb(217, 93, 76);
+    border: 2px solid black;
+  }
