@@ -1,33 +1,49 @@
 $(document).ready(function(){
 
+  $("#Mingredients").click(function(){
+    $(".gridContent div:first-child").show();
+  });
 
-$("#Mingredients").click(function(){
-  $(".gridContent div:first-child ul").toggle();
+$("#Bingredients").click(function(){
+  $(".gridContent div:first-child").hide();
 });
 
-$("#).click(function(){
-  $(".gridContent div:first-child p").show();
+$("#Bingredients").click(function(){
+  $(".gridContent div:nth-child(2)").show();
 });
 
-$("#_toggle").click( function(){
-  $(".gridContent div:nth-child(2) p").toggle();
+$("#steps").click(function(){
+  $(".gridContent div:nth-child(2)").hide();
 });
 
-$("#_html").click(function() {
-  $(".gridContent div:nth-child(3) p").html("Hello <b>World</b>!");
+$("#steps").click(function(){
+  $(".gridContent div:first-child").hide();
 });
 
-$("#_css").click(function(){
-  $(".box").css("background-color", "lightblue");
+$("#steps").click(function() {
+  $(".gridContent div:nth-child(3)").css("background-color", "lightpink");
+});
+
+$("#nutrition").click(function() {
+  $(".gridContent div:nth-child(4)").html("<center> <b>NAHHH...</b> don't worry about the calories, just enjoy! </center>");
+});
+
+$("#photos").click(function() {
+  $(".gridContent div:nth-child(5)").toggle();
+});
+
+$("#photos").click(function() {
+  $(".gridContent div:nth-child(6)").toggle();
 });
 
 
 $("footer").mouseover(function(){
-    $("footer p").html("If you enjoyed this recipe let us know!");
+    $("footer p").html("Let me know what you think!");
 });
 
 $("footer").mouseleave(function() {
-  $("footer p").html("Visit this site for more recipes to come!");
+  $("footer p").html("More recipes to come!");
 });
+
 
 });
