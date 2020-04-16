@@ -1,0 +1,46 @@
+body
+{
+  background-color: rgb(243, 252, 211);
+}
+
+.listWBullets {
+  list-style-type: none;
+  text-align: center;
+  font-size: 20px;
+}
+
+header  {
+  font-family: 'IM Fell French Canon SC';
+  text-align: center;
+  color: rgb(246, 60, 200);
+}
+
+h2  {
+  font-family: 'IM Fell French Canon SC';
+}
+
+h3  {
+  font-family: 'Baloo Da 2';
+}
+
+footer  {
+  text-align: center;
+  font-family: 'IM Fell French Canon SC';
+  font-size: 30px;
+}
+
+
+.video  {
+  text-align: center;
+  color: rgb(246, 60, 200);
+}
+
+.PrebakePics {
+  text-align: center;
+  color: rgb(246, 60, 200);
+}
+
+.PostbakePics {
+  text-align: center;
+  color: rgb(246, 60, 200);
+}
