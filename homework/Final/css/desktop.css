@@ -1,0 +1,42 @@
+html {
+  font-family: "Arvo";
+  background-color: rgb(137, 162, 204);
+}
+
+.logo {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-top: -30px;
+}
+
+.firstnav {
+  background-color: rgb(137, 162, 204);
+  overflow: hidden;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.firstnav a {
+  background-color: rgb(137, 162, 204);
+  text-align: center;
+  color: rgb(0, 0, 0);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.firstnav a:hover {
+  background-color: rgb(175, 175, 175);
+  color: black;
+}
+
+#about {
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    font-size: 35px;
+    padding: 50px;
+}
