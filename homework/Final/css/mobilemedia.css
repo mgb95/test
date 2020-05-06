@@ -1,22 +1,22 @@
 h1 {
-  color: rgb(208, 92, 92);
-  font-size: 100px;
-  text-align: center;
+  font-size: 60px;
 }
 
-#box5 {
-  background-color: rgb(208, 92, 92);
-  border: 2px solid white ;
+.logo {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-top: -30px;
+  align-items: center;
 }
 
 .subhead {
+  font-size: 20px;
   text-align: center;
-  font-family: 'Fredoka One', cursive;
-  font-size: 30px;
 }
 
 .picsmedia {
-  width: 60%;
+  width: 100%;
   margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;

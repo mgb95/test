@@ -2,6 +2,16 @@
 <html lang="en" dir="ltr">
   <head>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-165559755-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-165559755-1');
+</script>
+
     <meta charset="utf-8">
     <title>Miranda Barriero</title>
     <meta name="author" content="Miranda Barriero">
@@ -10,8 +20,9 @@
     <meta name="viewport" content="width=device-width">
     <link rel="stylesheet" href="css/desktop.css">
     <link rel="stylesheet" href="css/about.css">
-    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" media="only screen and (max-width: 480px)" href="css/mobileabout.css">
     <link href="https://fonts.googleapis.com/css2?family=Arvo&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
   </head>
   <body>
     <header>
@@ -28,15 +39,18 @@
         </nav>
 
         <h1>about me.</h1>
+        <div id="box2">
           <section id="education">
             <h2>My Education</h2>
+            <img src="images/umlogo.svg.png" alt="umlogo" width="150px">
               <section class="school">
                 <h3>University of Miami</h3>
                   <em>August 2017 - May 2021</em> <br>
                   <em>Coral Gables, FL</em>
-                <ul>
+                <ul class="listWBullets">
                   <li>GPA: 3.9</li>
-                  <li>Major: Marketing   Minors: Management and Theater</li>
+                  <li>Major: Marketing  </li>
+                  <li>Minors: Management and Theater</li>
                   <li>Honors: Provost's Honor Roll, Dean's List, 2019 Goldstein Milo Marketing Scholar, Global Entry Consulting Project Finalist, President's Honor Roll.</li>
                 </ul>
               </section><br>
@@ -52,9 +66,9 @@
                   <h3>Vice President of Consulting at the American Marketing Association</h3>
                   <em>September 2017 - Current</em> <br>
                   <em>Coral Gables, FL</em>
-                    <ul>
-                      <li>Spearhead semester-long consulting project for local restaurant to develop a strategy that will expand its market presence, increase revenue and capitalize on South Floridian consumers </li>
-                      <li>Lead outreach to obtain future clients for the chapter to assist in all business-related needs</li>
+                    <ul class="listWBullets">
+                      <li>Spearhead semester-long consulting project for local restaurant to develop a strategy that will expand its market presence, increase revenue and capitalize on South Floridian consumers; </li>
+                      <li>Lead outreach to obtain future clients for the chapter to assist in all business-related needs;</li>
                       <li>Assess industry trends and relevant campaigns through weekly evaluative marketing metrics </li>
                     </ul>
                   </section><br>
@@ -62,9 +76,9 @@
                     <h3>Team Leader at Managing for Success in the Global Environment</h3>
                     <em>August 2019 - December 2019</em> <br>
                     <em>Coral Gables, FL</em>
-                      <ul>
-                        <li> Facilitated weekly workshops throughout the semester with a group of freshmen to build their understanding of the topics in business which include teamwork, culture, and communications</li>
-                        <li> Assisted the students in the adjustment from high school to college by being a role model and resource</li>
+                      <ul class="listWBullets">
+                        <li> Facilitated weekly workshops throughout the semester with a group of freshmen to build their understanding of the topics in business which include teamwork, culture, and communications;</li>
+                        <li> Assisted the students in the adjustment from high school to college by being a role model and resource;</li>
                         <li> Worked alongside professors to help communicate expectations to the students and work with the students to ensure that these expectations are achieved</li>
                       </ul>
                     </section><br>
@@ -72,9 +86,9 @@
                     <h3>US Club Lacrosse Intern</h3>
                     <em>May 2019 - July 2019</em> <br>
                     <em>Manasquan, NJ</em>
-                      <ul>
-                        <li>Contacted club and tournament directors to obtain information for the purpose of enhancing the organization’s website to deliver an improved user experience  </li>
-                        <li> Conducted data collection and analysis to provide national rankings of youth travel club teams</li>
+                      <ul class="listWBullets">
+                        <li>Contacted club and tournament directors to obtain information for the purpose of enhancing the organization’s website to deliver an improved user experience;  </li>
+                        <li> Conducted data collection and analysis to provide national rankings of youth travel club teams;</li>
                         <li> Promoted the company through social media by creating website content and spotlight </li>
                       </ul>
                     </section><br>
@@ -82,7 +96,7 @@
                     <section id="coursework">
                       <h2>My Relevant Coursework</h2>
                       <section class="coursework">
-                        <ul>
+                        <ul class="listWBullets">
                           <li>Advertising Management</li>
                           <li>Digital Marketing</li>
                           <li>History of Fashion</li>
@@ -101,7 +115,7 @@
                       <section id="skills">
                         <h2>My Technical Skills</h2>
                         <table id="skills">
-                          <ul>
+                          <ul class="listWBullets">
                             <li>Microsoft Office Suite</li>
                             <li>Tableau</li>
                             <li>Adobe Photoshop</li>
@@ -109,8 +123,15 @@
                             <li>Adobe InDesign</li>
                           </ul>
                         </table>
-              </section><br><br>
-      </main>
+              </section>
+            </div>
+      </main><br><br>
+
+      <footer>
+        <nav class="firstnav" id="contact">
+            <a href="https://www.linkedin.com/in/miranda-barriero-76141b152">LinkedIn</a>
+        </nav>
+      </footer>
 
   </body>
 </html>

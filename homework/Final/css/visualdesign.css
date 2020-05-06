@@ -1,12 +1,18 @@
 h1 {
-  color: rgb(0, 0, 0);
+  color: rgb(163, 88, 106);
   font-size: 100px;
   text-align: center;
 }
 
+#box3 {
+  background-color: rgb(163, 88, 106);
+  border: 2px solid white ;
+}
+
 .subhead {
   text-align: center;
-  font-size: 20px;
+  font-family:'Indie Flower', cursive;
+  font-size: 30px;
 }
 
 .picsvisual {
@@ -35,12 +41,9 @@ div.picsvisual .div4 {
 }
 
 div.picsvisual .div5 {
-  grid-area: 5 / 2 / 4 / 4;
+  grid-area: 5 / 2 / 5 / 4;
 }
 
-div.picsvisual .div6 {
-  grid-area: 6 / 3 / 3 / 5;
-}
 
 .img {
   width: 100%;
@@ -48,28 +51,21 @@ div.picsvisual .div6 {
 }
 
 #visual1 {
-  width: 85%;
+  width: 65%;
 }
 
 #visual2 {
-  width: 75%;
-  margin-top: -90px;
+  width: 100%;
 }
 
 #visual3 {
-  width: 75%;
+width: 100%;
 }
 
 #visual4 {
-  width: 90%;
-  margin-top: 50px;
+  width: 100%;
 }
 
 #visual5 {
-  width: 75%;
-}
-
-#visual6 {
-  width: 90%;
-  margin-top: 50px;
+  width: 100%;
 }

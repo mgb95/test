@@ -1,0 +1,84 @@
+h1 {
+  font-size: 60px;
+}
+
+.logo {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-top: -30px;
+  align-items: center;
+}
+
+.subhead {
+  font-size: 20px;
+  text-align: center;
+}
+
+.picsmkt1 {
+  width: 60%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+}
+
+div.picsmkt1 .div1 {
+  grid-area: 1 / 1 / 3 / 4;
+}
+
+div.picsmkt1 .div2 {
+  grid-area: 2 / 2 / 3 / 4;
+}
+
+div.picsmkt1 .div3 {
+  grid-area: 3 / 1 / 3 / 4;
+}
+
+.img {
+  width: 100%;
+}
+
+#mkt1 {
+  width: 100%;
+}
+
+#mkt2 {
+  width: 100%;
+}
+
+#mkt3 {
+  width: 100%;
+}
+
+#mkt4 {
+  width: 50%;
+}
+
+.picsmkt3 {
+  width: 60%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 10px;
+}
+
+div.picsmkt3 .div1 {
+  grid-area: 1 / 2 / 3 / 4;
+}
+
+div.picsmkt3 .div2 {
+  grid-area: 2 / 3 / 4 / 5;
+}
+
+#mkt5 {
+  width: 120%;
+}
+
+#mkt6 {
+  width: 115%;
+}

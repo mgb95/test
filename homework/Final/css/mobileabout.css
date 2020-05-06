@@ -1,0 +1,15 @@
+h1 {
+  font-size: 60px;
+}
+
+.logo {
+  width: 200px;
+  display: block;
+  margin: 0 auto;
+  margin-top: -30px;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+}
